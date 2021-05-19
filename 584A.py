@@ -8,3 +8,4 @@ if( log >= n ):
 	print(-1)
 else:
 	print((10**(n - log - 1))*t)
+
