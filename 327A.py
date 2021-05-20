@@ -9,6 +9,7 @@ def find_0subsequence(board):
 			mSubsequence = max(subsequence, mSubsequence)
 			subsequence = 0
 			nOne += 1
+	mSubsequence = max(subsequence, mSubsequence)
 	if(mSubsequence > 0):
 		return mSubsequence + nOne
 	else:
